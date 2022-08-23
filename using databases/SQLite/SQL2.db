@@ -1,0 +1,15 @@
+#inserting user to the table
+INSERT INTO Users(name, email) VALUES('kristin', 'krr@gmail.com')
+
+#To delete a user from the table
+DELETE FROM Users WHERE email='krr@gmail.com'
+
+#To update or change a row on the table
+UPDATE Users SET name='Charles' WHERE email='c@gmail.com'
+
+#To select a specific column or row
+SELECT * FROM Users where email='c@gmail.com' 
+
+#To order
+SELECT * FROM Users ORDER by name 
+SELECT * FROM Users ORDER by email
